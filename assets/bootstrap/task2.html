@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Tour</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .carousel-item {
+        /* Full height */
+        height: 100vh; /* Viewport height */
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .navbar {
+        /* Make the navbar transparent */
+        background-color: transparent !important;
+        
+    }
+
+    .jumbotron {
+        /* Make the jumbotron semi-transparent */
+        background-color: rgba(255, 255, 255, 0.0); /* Adjust the alpha value as needed */
+        position: absolute;
+        color: black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1; /* Ensure the header stays above the carousel */
+        padding: 20px;
+        border-radius: 10px;
+    }
+</style>
+</head>
+<body>
+  <nav class="nav navbar-expand-xl bg-success p-2" style="display: flex;justify-content: center;">
+    <div class="container collapse navbar-collapse">
+        <i class="fa fa-phone ps-5" aria-hidden="true"> 6523-5463-32</i>
+        <i class="fa fa-envelope ps-5" aria-hidden="true">vaniudatha01@gmail.com</i>
+        <i class="fa fa-map-marker ps-5" aria-hidden="true">india</i>
+        <i class="fa fa-sign-in ps-5" aria-hidden="true"> login/signin </i>
+        <i class="fa fa-facebook-official ps-5" aria-hidden="true"></i>
+        <i class="fa fa-instagram ps-5" aria-hidden="true"></i>
+        <i class="fa fa-google-plus ps-5" aria-hidden="true"></i>
+        <i class="fa fa-skype ps-5" aria-hidden="true"></i>
+        <i class="fa fa-twitter ps-5" aria-hidden="true"></i>
+    </div>
+</nav>
+
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('/assets/uploads/emp.jpg');">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand me-5" href="#">
+                <img src="/assets/uploads/Employee.jpg" alt="Bootstrap" width="90" height="80">
+            </a>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item ms-5">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">NEWYORK</a></li>
+                  <li><a class="dropdown-item" href="#">AFRICA</a></li>
+                  <li><hr class="dropdown-divider">AUSTRILIA</li>
+                  <li><a class="dropdown-item" href="#">LONDON</a></li>
+                </ul>
+              </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ticket booking page</a></li>
+                <li><a class="dropdown-item" href="#">about page</a></li>
+                <li><hr class="dropdown-divider">best places to travel </li>
+                <li><a class="dropdown-item" href="#">Gallery</a></li>
+              </ul>
+            </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contacts</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              
+              <button class="btn primary" type="submit"><i style="font-size:24px" class="fa">&#xf002;</i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header class="jumbotron text-center">
+        <p>Creative and Innovative</p> 
+        <h1>Creative and Innovative Digital Solution</h1>
+        <button type="button" class="btn btn-primary">Free Quote</button>
+        <button type="button" class="btn btn-success">Contact Us</button>
+      
+        
+      </header>
+      
+    </div>
+    <!-- <div class="carousel-item" style="background-image: url('/Uploads/image/scenery.jpg');"></div>
+    <div class="carousel-item" style="background-image: url('/Uploads/image/scenery.jpg');"></div> -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- Your website content goes here -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
